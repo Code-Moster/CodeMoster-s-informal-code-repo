@@ -1,0 +1,55 @@
+{
+    "window_title": "应用启动器但是非正式版这只是为了好玩但由于标题太长很影响美观所以我就不会在继续再往下写了总之先定为0.1版本吧(^_^)",
+    "window_size": [1000, 600],
+    "window_default_color_theme": "dark-blue",
+    "content": [
+        {
+            "text": "退出启动器",
+            "command": "EXITHISWINDOW",
+            "grid": {
+                "r": 0,
+                "c": 1
+            }
+        },
+        {
+            "text": "命令提示符",
+            "command": "start cmd",
+            "grid": {
+                "r": 2,
+                "c": 1
+            }
+        },
+        {
+            "text": "此电脑",
+            "command": "start explorer",
+            "grid": {
+                "r": 3,
+                "c": 1
+            }
+        },
+        {
+            "text": "记事本",
+            "command": "start notepad",
+            "grid": {
+                "r": 4,
+                "c": 1
+            }
+        },
+        {
+            "text": "画图",
+            "command": "start mspaint",
+            "grid": {
+                "r": 5,
+                "c": 1
+            }
+        },
+        {
+            "text": "计算器",
+            "command": "start calc",
+            "grid": {
+                "r": 6,
+                "c": 1
+            }
+        }
+    ]
+}
